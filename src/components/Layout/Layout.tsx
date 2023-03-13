@@ -9,7 +9,7 @@ export default function LayoutComponent({ children }: Layout) {
     <div className={styles.wrapper}>
       <Header />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

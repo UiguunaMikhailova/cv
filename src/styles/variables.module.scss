@@ -1,5 +1,17 @@
-$color-grey: #292929;
+$color-white: #FFFFFF;
+$color-grey-100: #F6F6F6;
+$color-grey-200: #D8D8D8;
+$color-grey-300: #5F5F5F;
+$color-grey-400: #323232;
+$color-grey-500: #292929;
+$color-black: #000000;
 
 :export {
-    color-primary: $color-grey;
+    color-white: $color-white;
+    color-grey-100: $color-grey-100;
+    color-grey-200: $color-grey-200;
+    color-grey-300: $color-grey-300;
+    color-grey-400: $color-grey-400;
+    color-grey-500: $color-grey-500;
+    color-black: $color-black;
 }

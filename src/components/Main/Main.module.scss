@@ -1,1 +1,28 @@
 @import '../../styles/variables.module.scss';
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 50rem;
+    padding-top: 18rem;
+    &__subtitle {
+        font-size: 1.8rem;
+        font-weight: 200;
+        letter-spacing: .6rem;
+        margin-bottom: 8rem;
+    }
+    &__title {
+        font-size: 6rem;
+        letter-spacing: .3rem;
+        width: 50rem;
+        margin-bottom: 3rem;
+    }
+    &__text {
+        font-size: 1.6rem;
+        font-weight: 300;
+        width: 70rem;
+    }
+}

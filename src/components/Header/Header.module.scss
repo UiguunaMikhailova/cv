@@ -1,1 +1,80 @@
 @import '../../styles/variables.module.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    position: relative;
+    gap: 5rem;
+
+    .title {
+        color: $color-grey-300;
+        font-weight: 400;
+        font-size: 1.6rem;
+        letter-spacing: .4rem;
+        text-align: center;
+        width: 15rem;
+    }
+    .list {
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+
+        &__item {
+            list-style: none;
+            color: $color-grey-100;
+            font-weight: 300;
+            font-size: 1.6rem;
+        }
+    }
+    .theme {
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+        &__button {
+            border: none;
+            border-radius: 3rem;
+            height: 2rem;
+            padding: .1rem;
+            position: relative;
+            width: 3.8rem;
+            cursor: pointer;
+        }
+        &__button::after {
+            content: '';
+            border-radius: 50%;
+            background-color: $color-grey-500;
+            position: absolute;
+            left: 1rem;
+            top: 8%;
+            transform: translate(-50%);
+            transition: all .4s ease;
+            height: 1.7rem;
+            width: 1.7rem;
+        }
+        &__button:hover.theme__button::after {
+            content: '';
+            border-radius: 50%;
+            position: absolute;
+            left: 2.7rem;
+            top: 8%;
+            transform: translate(-50%);
+            transition: all .4s ease;
+            height: 1.7rem;
+            width: 1.7rem;
+        }
+    }
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: .1rem;
+    background-color: $color-grey-200;
+    opacity: .5;
+    width: 100%;
+}
+
