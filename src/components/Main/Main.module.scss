@@ -5,24 +5,26 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: $primary-dark;
     text-align: center;
-    height: 50rem;
-    padding-top: 18rem;
+    padding: 21vh 7rem 21vh;
     &__subtitle {
         font-size: 1.8rem;
         font-weight: 200;
         letter-spacing: .6rem;
-        margin-bottom: 8rem;
+        margin-bottom: 10vh;
+        color: $secondary-middle;
     }
     &__title {
         font-size: 6rem;
-        letter-spacing: .3rem;
+        letter-spacing: .4rem;
         width: 50rem;
-        margin-bottom: 3rem;
+        margin-bottom: 5vh;
     }
     &__text {
         font-size: 1.6rem;
         font-weight: 300;
         width: 70rem;
+        color: $secondary-middle;
     }
 }

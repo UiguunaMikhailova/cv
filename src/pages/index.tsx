@@ -6,9 +6,9 @@ import Skills from "@/components/Skills";
 const Home = () => (
   <div>
     <Main />
-    {/* <Projects />
+    <Projects />
     <Skills />
-    <About /> */}
+    <About />
   </div>
 );
 

@@ -1,17 +1,17 @@
-$color-white: #FFFFFF;
-$color-grey-100: #F6F6F6;
-$color-grey-200: #D8D8D8;
-$color-grey-300: #5F5F5F;
-$color-grey-400: #323232;
-$color-grey-500: #292929;
-$color-black: #000000;
+$white: #FFFFFF;
+$secondary-light: #F6F6F6;
+$secondary-middle: #D8D8D8;
+$secondary-dark: #5F5F5F;
+$primary-light: #323232;
+$primary-dark: #292929;
+$black: #000000;
 
 :export {
-    color-white: $color-white;
-    color-grey-100: $color-grey-100;
-    color-grey-200: $color-grey-200;
-    color-grey-300: $color-grey-300;
-    color-grey-400: $color-grey-400;
-    color-grey-500: $color-grey-500;
-    color-black: $color-black;
+    white: $white;
+    secondary-light: $secondary-light;
+    secondary-middle: $secondary-middle;
+    secondary-dark: $secondary-dark;
+    primary-light: $primary-light;
+    primary-dark: $primary-dark;
+    black: $black;
 }
