@@ -2,7 +2,8 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Projects.module.scss";
 import defaultImage from "src/assets/images/default.jpg";
-
+import crmImage from "src/assets/images/crmImage.png";
+import kanbanImage from "src/assets/images/kanbanImage.png";
 
 export default function Projects() {
   return (
@@ -12,40 +13,52 @@ export default function Projects() {
         <li className={styles.list__item}>
           <div className={styles.card}>
             <Image
-              src={defaultImage}
+              src={crmImage}
               alt="image-CRM-system"
               className={styles.card__image}
             />
             <p className={styles.card__title}>CRM-system</p>
             <p className={styles.card__text}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Assumenda tempora accusamus voluptatum labore, nostrum, placeat
-              deleniti totam magni delectus, quod maxime. Fugiat cupiditate
-              quidem obcaecati, explicabo illum eum? Ut, odit.
+              Project job for the animation studio. Automation of business
+              processes, recording and accounting of clients, controlling
+              company income and expenses.
+            </p>
+            <p className={styles.card__stack}>
+              Stack: React, Strapi, Javascript, Material UI
             </p>
             <div className={styles.buttons}>
-              <button className={styles.buttons__deploy}>Deploy</button>
-              <button className={styles.buttons__github}>Github</button>
+              <a href="https://google.com" className={styles.buttons__link}>
+                Link
+              </a>
+              <a href="https://google.com" className={styles.buttons__github}>
+                Github
+              </a>
             </div>
           </div>
         </li>
         <li className={styles.list__item}>
           <div className={styles.card}>
             <Image
-              src={defaultImage}
+              src={kanbanImage}
               alt="image-Kanban"
               className={styles.card__image}
             />
             <p className={styles.card__title}>Kanban</p>
             <p className={styles.card__text}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Assumenda tempora accusamus voluptatum labore, nostrum, placeat
-              deleniti totam magni delectus, quod maxime. Fugiat cupiditate
-              quidem obcaecati, explicabo illum eum? Ut, odit.
+              The app for organizing daily tasks with the ability to drag and
+              drop tasks.
+            </p>
+            <p className={styles.card__stack}>
+              Stack: React, Typescript, React Beautiful DnD, Redux Toolkit
+              Query, Material UI
             </p>
             <div className={styles.buttons}>
-              <button className={styles.buttons__deploy}>Deploy</button>
-              <button className={styles.buttons__github}>Github</button>
+              <a href="https://google.com" className={styles.buttons__link}>
+                Link
+              </a>
+              <a href="https://google.com" className={styles.buttons__github}>
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -63,9 +76,16 @@ export default function Projects() {
               deleniti totam magni delectus, quod maxime. Fugiat cupiditate
               quidem obcaecati, explicabo illum eum? Ut, odit.
             </p>
+            <p className={styles.card__stack}>
+              Stack: React, Typescript, Redux
+            </p>
             <div className={styles.buttons}>
-              <button className={styles.buttons__deploy}>Deploy</button>
-              <button className={styles.buttons__github}>Github</button>
+              <a href="https://google.com" className={styles.buttons__link}>
+                Link
+              </a>
+              <a href="https://google.com" className={styles.buttons__github}>
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -84,8 +104,12 @@ export default function Projects() {
               quidem obcaecati, explicabo illum eum? Ut, odit.
             </p>
             <div className={styles.buttons}>
-              <button className={styles.buttons__deploy}>Deploy</button>
-              <button className={styles.buttons__github}>Github</button>
+              <a href="https://google.com" className={styles.buttons__link}>
+                Link
+              </a>
+              <a href="https://google.com" className={styles.buttons__github}>
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -104,8 +128,12 @@ export default function Projects() {
               quidem obcaecati, explicabo illum eum? Ut, odit.
             </p>
             <div className={styles.buttons}>
-              <button className={styles.buttons__deploy}>Deploy</button>
-              <button className={styles.buttons__github}>Github</button>
+              <a href="https://google.com" className={styles.buttons__link}>
+                Link
+              </a>
+              <a href="https://google.com" className={styles.buttons__github}>
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -124,8 +152,12 @@ export default function Projects() {
               quidem obcaecati, explicabo illum eum? Ut, odit.
             </p>
             <div className={styles.buttons}>
-              <button className={styles.buttons__deploy}>Deploy</button>
-              <button className={styles.buttons__github}>Github</button>
+              <a href="https://google.com" className={styles.buttons__link}>
+                Link
+              </a>
+              <a href="https://google.com" className={styles.buttons__github}>
+                Github
+              </a>
             </div>
           </div>
         </li>

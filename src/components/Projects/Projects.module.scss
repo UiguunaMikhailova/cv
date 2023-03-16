@@ -23,25 +23,58 @@
             max-width: 500px;
             height: 100%;
             list-style: none;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 0 5px 3px rgba(73, 73, 73, 0.37);
+            background: rgb(27,27,28);
+            background: linear-gradient(0deg, rgba(27,27,28,0.5) 0%, rgba(151,153,156,0.2) 100%);
             .card {
                 &__image {
                     width: 100%;
                     height: 100%;
+                    border-radius: .5rem;
+                    margin-bottom: 1rem;
                 }
                 &__title {
-                    font-weight: 300;
-                    font-size: 2rem;
+                    font-weight: 500;
+                    font-size: 2.2rem;
+                    letter-spacing: .2rem;
+                    margin-bottom: 1rem;
                 }
                 &__text {
                     font-weight: 300;
-                    font-size: 1.2rem;
+                    font-size: 1.6rem;
+                    margin-bottom: 1rem;
+                }
+                &__stack {
+                    font-weight: 500;
+                    font-size: 1.4rem;
+                    margin-bottom: 1rem;
                 }
                 .buttons {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     padding: 1rem 0;
-                    gap: 1rem;
+                    gap: 3rem;
+                    &__link {
+                        border: 1px solid $secondary-light;
+                        border-radius: 4rem;
+                        font-size: 2rem;
+                        width: 12rem;
+                        height: 4rem;
+                        text-align: center;
+                        line-height: 3.8rem;
+                    }
+                    &__github {
+                        border: 1px solid $secondary-light;
+                        border-radius: 4rem;
+                        font-size: 2rem;
+                        width: 12rem;
+                        height: 4rem;
+                        text-align: center;
+                        line-height: 3.8rem;
+                    }
                 }
             }
         }
